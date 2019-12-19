@@ -2,14 +2,19 @@
   "name": "kittyfriends",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vbills.github.io/kittyfriends/",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-redux": "^7.1.3",
     "react-scripts": "^3.3.0",
+    "redux": "^4.0.4",
     "tachyons": "^4.11.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
