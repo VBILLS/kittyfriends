@@ -3,9 +3,10 @@ import { connect } from 'react-redux';
 
 import { setSearchField, requestRobots } from '../redux/actions';
 
-import CardList from '../components/CardList';
+import Header from '../components/Header';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
+import CardList from '../components/CardList';
 import ErrorBoundary from '../components/ErrorBoundary';
 
 import './App.css';
@@ -22,7 +23,7 @@ class App extends Component {
     });
     return (
       <div className='tc'>
-        <h1 className='f1'>KittyFriends</h1>
+        <Header />
         <SearchBox searchChange={onSearchChange} />
         <Scroll>
           {isPending ? (
