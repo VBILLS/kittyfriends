@@ -1,11 +1,11 @@
 .card {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 22vw;
   background-color: rgba(255, 158, 236, 0.41);
-  border-width: 0.25rem;
   border-radius: 0.5rem;
   padding: 1rem;
   margin: 0.5rem;
-  border-width: 0.25rem;
-  display: inline-block;
   box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -19,4 +19,13 @@
 .grow:hover,
 .grow:focus {
   transform: scale(1.05);
+}
+/*  @media screen and (max-width: 400px) {
+    width: 50vw;
+  } */
+
+.text {
+  font-size: 12px;
+  text-overflow: clip;
+  word-wrap: inherit;
 }

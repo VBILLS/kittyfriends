@@ -5,8 +5,8 @@ import { setSearchField, requestRobots } from '../redux/actions';
 
 import Header from '../components/Header';
 import SearchBox from '../components/SearchBox/SearchBox';
-import Scroll from '../components/Scroll';
-import CardList from '../components/CardList';
+import Scroll from '../components/Scroll/Scroll';
+import CardList from '../components/card-list/CardList';
 import ErrorBoundary from '../components/ErrorBoundary';
 
 import './App.css';
