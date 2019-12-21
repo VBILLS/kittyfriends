@@ -1,17 +1,18 @@
 .searchbox-container {
   padding: 0.5rem;
   box-sizing: border-box;
+  margin: 0px;
 }
 
 .searchbox {
-  padding: 1rem;
+  font-size: 100%;
+  font-family: inherit;
+  padding: 0.5rem 1rem;
   border-style: solid;
   border-width: 1px;
   border-color: #19a974;
   background-color: #cdecff;
   vertical-align: center;
   overflow: visible;
-  box-sizing: border-box;
-  outline-offset: -2px;
-  text-overflow: unset;
+  margin: 0px;
 }

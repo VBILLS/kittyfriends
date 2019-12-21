@@ -10,7 +10,6 @@ import App from './containers/App';
 import { searchRobots, requestRobots } from './redux/reducers';
 
 import './index.css';
-import 'tachyons';
 
 import * as serviceWorker from './serviceWorker';
 
