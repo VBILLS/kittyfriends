@@ -1,0 +1,17 @@
+.searchbox-container {
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.searchbox {
+  padding: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #19a974;
+  background-color: #cdecff;
+  vertical-align: center;
+  overflow: visible;
+  box-sizing: border-box;
+  outline-offset: -2px;
+  text-overflow: unset;
+}

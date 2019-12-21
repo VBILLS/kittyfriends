@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { setSearchField, requestRobots } from '../redux/actions';
 
 import Header from '../components/Header';
-import SearchBox from '../components/SearchBox';
+import SearchBox from '../components/SearchBox/SearchBox';
 import Scroll from '../components/Scroll';
 import CardList from '../components/CardList';
 import ErrorBoundary from '../components/ErrorBoundary';
@@ -22,7 +22,7 @@ class App extends Component {
       return robot.name.toLowerCase().includes(searchField.toLowerCase());
     });
     return (
-      <div className='tc'>
+      <div>
         <Header />
         <SearchBox searchChange={onSearchChange} />
         <Scroll>

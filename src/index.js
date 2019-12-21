@@ -12,7 +12,7 @@ import { searchRobots, requestRobots } from './redux/reducers';
 import './index.css';
 import 'tachyons';
 
-import registerServiceWorker from './registerServiceWorker';
+import * as serviceWorker from './serviceWorker';
 
 const rootReducer = combineReducers({ searchRobots, requestRobots });
 const logger = createLogger();
@@ -27,4 +27,5 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
-registerServiceWorker();
+
+serviceWorker.register();
