@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should render shallow snapshot matches react-test-renderer snapshot 1`] = `
+<div
+  className="card-list"
+>
+  <div
+    className="card grow"
+  >
+    <img
+      alt="robots"
+      src="https://robohash.org/1?size=200x200&set=set4"
+    />
+    <div
+      className="text"
+    >
+      <h2>
+        John Snow
+      </h2>
+      <p>
+        john@gmail.com
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`it should render shallow snapshot shallow renders & matches snapshot with enzyme 1`] = `
+<div
+  className="card-list"
+>
+  <Card
+    email="john@gmail.com"
+    id={1}
+    key="0"
+    name="John Snow"
+  />
+</div>
+`;

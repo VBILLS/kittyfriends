@@ -1,7 +1,6 @@
 .card {
   box-sizing: border-box;
   display: inline-block;
-  width: 22vw;
   background-color: rgba(255, 158, 236, 0.41);
   border-radius: 0.5rem;
   padding: 1rem;

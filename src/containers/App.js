@@ -3,11 +3,12 @@ import { connect } from 'react-redux';
 
 import { setSearchField, requestRobots } from '../redux/actions';
 
-import Header from '../components/Header';
-import SearchBox from '../components/SearchBox/SearchBox';
-import Scroll from '../components/Scroll/Scroll';
+import Header from '../components/header/header.component';
+import SearchBox from '../components/search-box/search-box.component';
+import Scroll from '../components/scroll/scroll.component';
 import CardList from '../components/card-list/CardList';
-import ErrorBoundary from '../components/ErrorBoundary';
+import ErrorBoundary from '../components/error-boundary/error-boundary.component.js';
+import CounterButton from '../components/counter-button/counter-button.component';
 
 import './App.css';
 
@@ -24,6 +25,7 @@ class App extends Component {
     return (
       <div>
         <Header />
+        <CounterButton />
         <SearchBox searchChange={onSearchChange} />
         <Scroll>
           {isPending ? (

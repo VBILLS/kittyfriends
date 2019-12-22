@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component matches react-test-renderer snapshot 1`] = `
+<div
+  className="card grow"
+>
+  <img
+    alt="robots"
+    src="https://robohash.org/undefined?size=200x200&set=set4"
+  />
+  <div
+    className="text"
+  >
+    <h2 />
+    <p />
+  </div>
+</div>
+`;
+
+exports[`Card component renders props 1`] = `
+<div
+  className="card grow"
+>
+  <img
+    alt="robots"
+    src="https://robohash.org/undefined?size=200x200&set=set4"
+  />
+  <div
+    className="text"
+  >
+    <h2>
+      VCunit
+    </h2>
+    <p>
+      vonacunt@gmail.com
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Card component shallow renders & matches snapshot with enzyme 1`] = `
+<div
+  className="card grow"
+>
+  <img
+    alt="robots"
+    src="https://robohash.org/undefined?size=200x200&set=set4"
+  />
+  <div
+    className="text"
+  >
+    <h2 />
+    <p />
+  </div>
+</div>
+`;
