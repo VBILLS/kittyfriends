@@ -10,7 +10,7 @@ const initialStateSearch = {
 };
 
 const initialStateRobots = {
-  isPending: true,
+  isPending: false,
   robots: []
 };
 

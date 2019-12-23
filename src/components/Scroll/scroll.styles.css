@@ -1,5 +1,5 @@
 .scroll {
   overflow: scroll;
   border-top: 3px solid black;
-  width: 100vw;
+  height: 800px;
 }
